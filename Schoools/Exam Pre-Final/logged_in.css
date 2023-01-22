@@ -1,0 +1,25 @@
+#intro{
+    text-align: center;
+}
+main{
+    margin: 10vh auto;
+}
+.searcheg{
+    display: inline;
+    text-align: center;
+}
+#searcheg{
+    margin: 0px auto;
+    width:fit-content
+}
+#stud_info{
+    text-align: center;
+}
+div#information{
+    text-align: center;
+    border: 1px solid;
+    width:30%;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding:25px;
+}

@@ -1,0 +1,32 @@
+*{
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+body form#mainform{
+    border: 1px solid ;
+    margin: 150px auto ;
+    width: 250px;
+    padding: 50px;
+    border-radius: 50px;
+}
+label{
+    width: 80px;
+    margin: 0px auto ;
+
+}
+body input, textarea{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    display: block;
+}
+input,textarea{
+    padding:5px;
+    size:10px;
+    margin:5px 0px;
+}
+span{
+    color: red;
+    display: inline-block;
+}

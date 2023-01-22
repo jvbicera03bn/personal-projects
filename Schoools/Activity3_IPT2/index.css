@@ -1,0 +1,38 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     border: 0px;
+ }
+
+ main {
+     width: 400px;
+     border: 1px solid;
+     margin: 30px auto;
+     border-radius: 5px;
+     padding: 10px;
+ }
+
+ h1 {
+     text-align: center;
+     padding: 10px;
+ }
+
+ form input,
+ div.gender select {
+     padding: 10px;
+     display: block;
+     border: 1px solid;
+     border-radius: 5px;
+     margin: 5px auto;
+ }
+
+ form span {
+     display: block;
+     color: red;
+     text-align: center;
+ }
+
+ div.gender {
+     margin: 10px auto;
+     width: fit-content;
+ }

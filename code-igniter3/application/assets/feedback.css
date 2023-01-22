@@ -1,0 +1,46 @@
+
+body {
+    width: 400px;
+    border: 1px solid;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+form{
+    padding: 20px;
+}
+body h1 {
+    text-align: center;
+}
+
+div.inp {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    padding-left: 10px;
+}
+
+h4 {
+    display: inline-block;
+    width: 190px;
+}
+
+p {
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#subttn,
+button {
+    margin: 0px 150px;
+}
+
+body div div {
+    width: 300px;
+    margin: 0px auto;
+}

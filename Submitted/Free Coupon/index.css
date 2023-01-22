@@ -1,0 +1,27 @@
+header {
+   
+    width: fit-content;
+    text-align: center;
+    margin: 0px auto;
+}
+
+header p {
+    font-size: 20px;
+    width: 400px
+}
+header p span {
+    font-weight: bold;
+}
+
+main {
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    width: 400px
+}
+.coupon {
+    font-size: 40px;
+    font-weight: bold;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#form_container {
+    border: 1px solid;
+    padding: 16px;
+    width: 25%;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+#form_container h1 {
+    text-align: center;
+}
+
+form input,form select{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#acc_stat{
+    margin: 0px auto;
+    text-align: center;
+}
+form label{
+    display: block;
+    text-align: center;
+    
+}
+
+fieldset input, fieldset label{
+    display: inline;
+}
+
+
+p {
+    text-align: center;
+}
+div#err{
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgb(238, 107, 107);
+    width: 34%;
+    border-radius: 10px;
+}
+div#err p {
+    color: rgb(86, 2, 2);
+}
+.tableFixHead {
+    overflow-y: auto;
+    height: 40vh;
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px 16px;
+    text-align: center;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+th {
+    background: #eee;
+}

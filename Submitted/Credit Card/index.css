@@ -1,0 +1,30 @@
+*{
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+ * {
+     margin: 0px;
+     padding: 0px;
+     border: 0px;
+ }
+
+ th,
+ td {
+     font-size: 25px;
+     padding: 2px 5px;
+     text-align: center;
+ }
+ table {
+     background-color: black;
+     margin: 0px auto;
+     position: relative;
+     top: 300px
+ }
+tr.gray td{
+    background-color:gray;
+}
+ th,
+ td {
+     background-color: white;
+ }

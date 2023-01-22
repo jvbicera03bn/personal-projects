@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: fit-content;
+    border-radius: 10px;
+    margin: 200px auto 0px auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+div.forms {
+    display: inline-block;
+}
+
+div#form_login {
+    padding: 128px 70px;
+    vertical-align: top;
+}
+
+div#form_register {
+    padding: 30px 60px;
+}
+
+form {
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0px auto;
+    box-shadow: #88a5bf7a 6px 2px 16px 0px, #ffffffcc -6px -2px 16px 0px;
+}
+
+form>input {
+    display: block;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+form div.form_inputs {
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 10px;
+
+}
+
+form div.form_inputs input,
+form div.form_inputs textarea {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px;
+    box-shadow: #88a5bf7a 6px 2px 16px 0px, #ffffffcc -6px -2px 16px 0px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input.sub {
+    display: inline-block;
+    margin: 0px 47px;
+    padding: 5px 10px;
+    box-shadow: #00000029 0px 3px 6px, #0000003b 0px 3px 6px;
+}
+
+input.sub:hover {
+    cursor: pointer;
+    box-shadow: #32325d40 0px 30px 60px -12px inset, #0000004d 0px 18px 36px -18px inset;
+}
+
+div#errors {
+    background-color: #e66363;
+    border-radius: 10px;
+}
+
+div#errors p {
+    color: #5e1a1a;
+    padding: 5px 5px;
+    margin: 2px 0px;
+}
+
+div#success {
+    background-color: #476c49;
+    border-radius: 10px;
+}
+
+div#success p {
+    color: #11290b;
+    padding: 5px 5px;
+    margin: 2px 0px;
+}
+div#info_container {
+    padding:10px;
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 10px;
+}
+h1#login{
+    padding:10px 20px;
+}
+div#info_container h3 {
+    padding: 10px;
+}
+div#info_container p {
+    padding: 10px;
+}
+form#logout_form{
+    padding: 0px;
+    margin: 50px auto;
+}

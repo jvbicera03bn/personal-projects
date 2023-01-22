@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0px auto;
+
+}
+
+form input {
+    display: block;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+input#reset{
+    background-color: red;
+}
+div#success{
+    text-align: center;
+    padding: 30px;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 10px;
+    
+    background-color: green;
+}
+
+span {
+    display: flex;
+    color: red;
+    align-content: center;
+    justify-content: center;
+}
+form#succreset{
+    border: 0px;
+}
+input#succreset{
+    background-color: none;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+}

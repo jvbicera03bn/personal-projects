@@ -1,0 +1,35 @@
+body{
+    width:400px;
+    border:1px solid ;
+    margin:0px auto;
+    border-radius:20px
+}
+body h1{
+    text-align: center;
+}
+body form{
+    width:fit-content;
+    margin:0px auto;
+}
+body form div label{
+   margin-top: 10px;
+   display: block;
+}
+h4{
+    display: inline-block;
+    width: 190px;
+}
+p{
+    display: inline-block;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+#subttn,button{
+    margin:0px 59px;
+}
+body div div{
+    width:300px;
+    margin:0px auto;
+}

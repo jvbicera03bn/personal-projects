@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 1200px;
+    /* border: 1px solid; */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+header {
+    height: 60px;
+    background-color: #b3b2b2;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 4px;
+}
+
+h1 {
+    padding: 10px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+header form#form-header {
+    display: inline-block;
+    position: relative;
+    left: 875px;
+}
+
+header form#form-header input,
+header form#form-header1 input {
+    font-size: 32px;
+    background-color: #b3b2b2;
+    color: blue;
+    text-decoration: underline;
+}
+
+div.items {
+    width: 320px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px 37px 30px 37px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.items img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.items div.form {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 7px 5px 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.items div.form select,
+div.items div.form input {
+    padding: 5px;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+div.items div.form p {
+    display: inline-block;
+}
+
+input#count {
+    width: 30px;
+}
+
+table {
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: #0000001a 0px 4px 12px;
+    background-color: #000000;
+}
+
+tr {
+    font-size: 20px;
+}
+
+tr input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: white;
+}
+
+tr input:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+th,
+td {
+    border: 1px solid;
+    width: 298px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+th {
+    background-color: #808080;
+}
+
+h2#total {
+    text-align: right;
+}

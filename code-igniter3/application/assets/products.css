@@ -1,0 +1,56 @@
+*{
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+main {
+    width: 1000px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+h1{
+    padding: 20px;
+}
+div#table{
+    margin: 30px;
+}
+table {
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: #0000001a 0px 4px 12px;
+    background-color: #000000;
+    margin: 0px auto;
+}
+
+tr {
+    font-size: 20px;
+}
+
+th,
+td {
+    border: 1px solid;
+    width: 298px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+th {
+    background-color: #808080;
+}
+form#show{
+    text-align: center;
+    padding: 10px;
+}
+form#show input, form#show select  {
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: #5ed05e;
+    text-align: center;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+
+}

@@ -1,0 +1,54 @@
+Output 1.
+0 - 2
+1 - 4
+2 - 6
+3 - 8
+
+Output 2.
+2
+4
+6
+8
+
+Output 3.
+A - Apple
+B - Banana
+
+Output 4.
+Apple
+Banana
+
+Output 5.
+A
+B
+
+Output 6.
+(I didnt answered this right)
+Key is 0
+logging the value[0]=> array("a1", "a2", "a3")
+Key is 1
+logging the value[0]=> array("b1", "b2", "b3")
+Key is 2
+logging the value[0]=> array("c1", "c2", "c3")
+
+Output 7.
+logging the valuearray(3) { [0]=> string(2) "a1" [1]=> string(2) "a2" [2]=> string(2) "a3" } logging the valuearray(3) { [0]=> string(2) "b1" [1]=> string(2) "b2" [2]=> string(2) "b3" }logging the valuearray(3) { [0]=> string(2) "c1" [1]=> string(2) "c2" [2]=> string(2) "c3" }
+ 
+Output 8.
+key is 0
+PH - Philippines
+KR - South Korea
+key is 1
+PHP - Philippine peso
+KRW - South Korean won
+key is 2
+Manila - Maynilad
+Seoul - Seorabeol
+
+Output 9.
+PH - Philippines
+KR - South Korea
+PHP - Philippine peso
+KRW - South Korean won
+Manila - Maynilad
+Seoul - Seorabeol

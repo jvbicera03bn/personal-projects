@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top_section {
+    width: 1200px;
+    margin: 0px auto;
+    display:flex;
+    justify-content:space-evenly;
+}
+#ur{
+    background-color: rgb(59, 59, 208);
+}
+#profile {
+    text-align: center;
+}
+#profile h3{
+    margin: 5px 0px;
+}
+#profile p {
+    padding: 5px;
+    background-color: rgb(59, 59, 208);
+    width: fit-content;
+    margin: 0px auto;
+    border: 1px solid rgb(135, 135, 174);
+    border-radius: 10px;
+}
+#profile form{
+    margin:10px;
+}
+/* Chat section */
+#chat_section,
+#profile {
+    vertical-align: top;
+    display: inline-block;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #ebebeb;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#chat_box{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow-y:scroll;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#chat_box p{
+    background-color:#ccc;
+    padding:5px;
+    margin:5px 0px;
+    width:60%;
+    border-radius: 10px;
+    font-size:13px;
+    font-weight: 500;
+    display: block;
+    
+}
+#chat_box p.sender{
+    margin-left: auto;
+    background-color:#4CAF50;
+}
+#chat_box p.reciever {
+    margin-right: auto;
+}
+#chat_section form{
+    margin: 10px auto;
+    width: fit-content;
+}
+#chat_section form input[type="text"]{
+    display: block;
+    border-radius: 10px;
+    width:300px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#chat_section input[type="submit"]{
+    display: inline;
+}
+#form_group{
+    margin:10px;
+    display: block;
+    width:fit-content;
+    margin: 0px auto;
+}
+/* end of chat section */
+#grading_form h1 {
+    text-align: center;
+}
+#attendance h3{
+    text-align: center;
+    margin:5px 0px;
+}
+
+input[type="number"],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#attendance {
+    width: 1200px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: #ebebeb;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+td input[type="submit"]{
+    padding:5px 10px;
+}
+#table_box {
+    overflow-y: auto;
+    height: 325px;
+}
+
+#table_box thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+td#Active,td#active{
+    background-color: rgb(54, 129, 54);
+}
+td#Inactive,td#inactive {   
+    background-color: rgb(203, 74, 74);
+}
+th {
+    background: #eee;
+}
+#logout{
+    background-color: rgb(203, 74, 74);
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+form>input {
+    display: block;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+form div.form_inputs {
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 10px;
+}
+
+form div.form_inputs input,
+form div.form_inputs textarea {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input.sub {
+    display: inline-block;
+    margin: 0px 47px;
+}
+
+input#reset {
+    background-color: red;
+}
+
+div#success {
+    text-align: center;
+    padding: 30px;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: green;
+}
+
+span {
+    display: flex;
+    color: red;
+    align-content: center;
+    justify-content: center;
+}
+
+span#success {
+    color: green;
+}
+
+form#succreset {
+    border: 0px;
+}
+
+input#succreset {
+    background-color: none;
+}
+
+form#log_out {
+    margin: 0px;
+    padding: 0px;
+}
+h3 {
+    margin-top:10px
+}

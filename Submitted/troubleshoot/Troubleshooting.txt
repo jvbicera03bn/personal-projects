@@ -1,0 +1,13 @@
+1. Authentication Error - Could not simulate
+ > tried simulating this error but with no luck so i tried searching it in the internet and as it turns out you can only encounter this problem if
+you are trying to connect to a older version of msqlm, ver 5.below to be exact and this is because they use different kind of password format, I
+assume they changed it because of security reasons
+
+2.Authorization Error - 
+ > you can encounter this error when you dont have the right password in the 
+sql connection in your php code for you to fix this is have it enter the right password of your database
+
+3.Network Error -
+ > you can encounter this error in 2 occurence, first is when you didnt include the hostname or not entered 
+it right and 2nd is when you forgot to put the port or didnt put the right port of your database for you to fix this errors is you must 
+double check the parameters you entered in the sql connection.

@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+form > input {
+    display: block;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+form div.form_inputs {
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap: 10px;
+}
+
+form div.form_inputs input,
+form div.form_inputs textarea {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input.sub {
+    display: inline-block;
+    margin: 0px 47px;
+}
+
+input#reset {
+    background-color: red;
+}
+
+div#success {
+    text-align: center;
+    padding: 30px;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: green;
+}
+
+span {
+    display: flex;
+    color: red;
+    align-content: center;
+    justify-content: center;
+}
+
+form#succreset {
+    border: 0px;
+}
+
+input#succreset {
+    background-color: none;
+}
+
+div.bulletin {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 50px;
+    width: 700px;
+    overflow-y: scroll;
+    height: 600px;
+    margin: 50px auto 0px auto;
+    padding-top: 10px;
+}
+
+div.bulletin h3 {
+    padding-top: 20px
+}
+
+div.bulletin p {
+    font-weight: 300;
+    padding: 10px 0px;
+    word-wrap: break-word;
+}
+
+span.br {
+    border-top: 1px solid;
+    color: black;
+}

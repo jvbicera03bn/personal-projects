@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top_section {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+#profile {
+    text-align: center;
+}
+
+#grading_form,
+#profile {
+    vertical-align: top;
+    display: inline-block;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #ebebeb;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#grading_form h1 {
+    text-align: center;
+}
+#attendance h3{
+    text-align: center;
+    margin:5px 0px;
+}
+
+input[type="number"],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#attendance {
+    width: 1000px;
+    height: 370px;
+    border-radius: 10px;
+    background-color: #ebebeb;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+#table_box {
+    overflow-y: auto;
+    height: 325px;
+}
+
+#table_box thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+td#active{
+    background-color: rgb(54, 129, 54);
+}
+td#inactive {   
+    background-color: rgb(203, 74, 74);
+}
+th {
+    background: #eee;
+}
+#logout{
+    background-color: rgb(203, 74, 74);
+}

@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family:sans-serif;
+}
+
+#uploadform,
+#uploaded {
+    border: 2px solid;
+    margin: 20px auto;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+div#msg{
+    width: fit-content;
+    padding: 5px;
+    background-color: #e6e6e6;  
+    margin: 10px auto;
+    border-radius: 10px;
+}
+p#error,p#success {
+    color: red;
+    margin: 0px auto;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 10px;
+}
+p#success {
+    color: green;
+}
+
+div h1 {
+    text-align: center;
+}
+
+form {
+    margin: 0px auto;
+    width: fit-content;
+}
+
+form>input {
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 10px;
+}
+#file_list .files{
+    border: 0;
+    background-color: #ffffff;
+    color: #7735fb;
+    font-size: 19px;
+}
+#file_list .files:hover{
+    color: #112648;
+    cursor: pointer;
+}
+#file_list ol {
+    padding: 10px;
+}
+
+main#main{
+    margin: 0px auto;
+}
+main#main h1{
+    margin: 0px auto;
+    text-align: center;
+}
+table{
+    margin: 0px auto;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid
+}
+td,th {
+    background-color: white;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+h3{
+    text-align: center;
+    padding: 5px;
+}
+form#page{
+    background-color: #929292;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+form#page input{
+    background-color: white;
+    border: 0px;
+    font-size: 16px;
+    color: #7735fb;
+    text-decoration: underline;
+    background-color: #929292;
+    margin: 0px;
+}
+form#page input:hover{
+    color: #112648;
+    cursor: pointer;
+    text-decoration: none;
+}

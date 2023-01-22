@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+input {
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+input#reset {
+    background-color: red;
+    position: relative;
+    left: 850px;
+}
+
+body {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0px auto;
+    width: 1200px;
+    margin-top: 150px;
+}
+
+header div {
+    padding: 20px;
+    display: inline-block;
+}
+
+header div p {
+    padding: 10px 15px;
+}
+
+header form {
+    display: inline-block;
+}
+
+main div.bet {
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    padding: 30px;
+    margin: 0px 17px;
+}
+
+main div.bet form {
+    padding: 10px;
+}
+
+main div.bet form input {
+    padding: 5px 10px;
+    background-color: green;
+}
+
+main h2#host {
+    padding: 15px;
+}
+
+main div#gmhost {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 1000px;
+    height: 200px;
+    margin: 10px auto 50px auto;
+    overflow: auto;
+}
+
+main div#gmhost p {
+    padding: 10px;
+}
+
+.red {
+    color: red
+}
+
+.blue {
+    color: blue;
+}
